@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.pyc
+
+# Environment / secrets
+.env
+
+# Logs
+*.log
+
+# dbt
+weather_dbt/target/
+weather_dbt/logs/
+weather_dbt/dbt_packages/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Learning
+learning/

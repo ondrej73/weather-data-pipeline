@@ -1,0 +1,16 @@
+[
+    {
+        "city": "Ostrava",
+        "time": "2026-08-29T12:00",
+        "temperature": 24.7,
+        "windspeed": 15.5,
+        "is_day": 1
+    },
+    {
+        "city": "Ostrava",
+        "time": "2026-08-29T12:15",
+        "temperature": 24.9,
+        "windspeed": 15.1,
+        "is_day": 1
+    }
+]

@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: stg_weather
+    description: "Staging model with cleaned weather data."
+
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+
+      - name: city
+        tests:
+          - not_null
+
+      - name: measured_at
+        tests:
+          - not_null
+
+  - name: daily_weather_summary
+    description: "Daily aggregated weather statistics."
+
+    columns:
+      - name: city
+        tests:
+          - not_null
+
+      - name: weather_date
+        tests:
+          - not_null          
